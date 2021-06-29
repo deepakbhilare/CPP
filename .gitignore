@@ -1,0 +1,82 @@
+.metadata/.lock
+.metadata/.log
+.metadata/version.ini
+.metadata/.mylyn/repositories.xml.zip
+.metadata/.plugins/org.eclipse.cdt.core/.log
+.metadata/.plugins/org.eclipse.cdt.core/Hello Mac.1402799217857.pdom
+.metadata/.plugins/org.eclipse.cdt.core/Hello Mac.language.settings.xml
+.metadata/.plugins/org.eclipse.cdt.core/language.settings.xml
+.metadata/.plugins/org.eclipse.cdt.core/mytalk.language.settings.xml
+.metadata/.plugins/org.eclipse.cdt.core/mytalkClient.1444448836567.pdom
+.metadata/.plugins/org.eclipse.cdt.core/mytalkClient.language.settings.xml
+.metadata/.plugins/org.eclipse.cdt.core/mytalkServer.1444448608791.pdom
+.metadata/.plugins/org.eclipse.cdt.core/mytalkServer.language.settings.xml
+.metadata/.plugins/org.eclipse.cdt.core/shareddefaults.xml
+.metadata/.plugins/org.eclipse.cdt.core/testing.1426849359642.pdom
+.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+.metadata/.plugins/org.eclipse.cdt.make.ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c
+.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.cdt.ui/global-build.log
+.metadata/.plugins/org.eclipse.cdt.ui/Hello Mac.build.log
+.metadata/.plugins/org.eclipse.cdt.ui/mytalk.build.log
+.metadata/.plugins/org.eclipse.cdt.ui/mytalkClient.build.log
+.metadata/.plugins/org.eclipse.cdt.ui/mytalkServer.build.log
+.metadata/.plugins/org.eclipse.core.resources/.projects/Hello Mac/.markers
+.metadata/.plugins/org.eclipse.core.resources/.projects/Hello Mac/1.tree
+.metadata/.plugins/org.eclipse.core.resources/.projects/Hello Mac/.indexes/properties.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/mytalkClient/.indexes/properties.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/mytalkServer/.indexes/properties.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/mytalkServer/.indexes/e4/properties.index
+.metadata/.plugins/org.eclipse.core.resources/.projects/testing/1.tree
+.metadata/.plugins/org.eclipse.core.resources/.projects/testing/.indexes/properties.index
+.metadata/.plugins/org.eclipse.core.resources/.root/4.tree
+.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-Hello Mac.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-mytalkClient.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-mytalkServer.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-testing.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.debug.core.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.dsf.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.mylyn.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.cvs.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+.metadata/.plugins/org.eclipse.debug.core/.launches/mytalkServer Debug.launch
+.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml
+.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.linuxtools.cdt.libhover/C/devhelp.libhover
+.metadata/.plugins/org.eclipse.linuxtools.cdt.libhover/C/glibc_library.libhover
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2014/6/25/refactorings.history
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2014/6/25/refactorings.index
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/10/41/refactorings.history
+.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2015/10/41/refactorings.index
+.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+.metadata/.plugins/org.eclipse.rse.core/.log
+.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark
+.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.deepaks-macbook-air_263300/node.properties
+.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.deepaks-macbook-air_263300/FP.local.files_0/node.properties
+.metadata/.plugins/org.eclipse.rse.core/profiles/PRF.deepaks-macbook-air_263300/H.local_16/node.properties
+.metadata/.plugins/org.eclipse.rse.ui/.log
+.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+a.out

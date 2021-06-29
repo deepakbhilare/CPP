@@ -36,14 +36,11 @@ bool stack :: push(int x){
 int stack :: pop(){
     if(isEmpty()) {
         cout<<"stack empty"<<endl;
-        return false;
+        return -1;
     }
     else{
-        cout<<"pop : " << a[top] << endl;
-        top--;
+        return a[top--];
     }
-
-    return a[top];
 }
 
 bool stack :: isEmpty(){
@@ -74,7 +71,6 @@ int main(){
     cout<<"POP :" << s.pop() << endl;
     cout<<"POP :" << s.pop() << endl;
     cout<<"POP :" << s.pop() << endl;
-
 
     return 0;
 }
