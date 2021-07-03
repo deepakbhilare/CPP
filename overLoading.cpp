@@ -4,20 +4,18 @@ using namespace std;
 
 #define MAX 100
 
+template <typename T> 
 class Stack{
     private:
         int top;
     
     public:
-        int data[MAX];
+        T data[MAX];
 
-        int getTop();
-        void setTop(int i);
-
-        bool push(int i);
-        int pop();
+        bool push(T i);
+        T pop();
         bool isEmpty();
-        int peek();
+        T peek();
 
         Stack(){
             top = -1;
@@ -28,7 +26,8 @@ class Stack{
         }
 };
 
-bool Stack :: push(int i){
+template<typename T>
+bool Stack<T> :: push(T i){
     if(top >= MAX){
         cout<<"Stack Overflow"<<endl;
         return false;
@@ -39,14 +38,16 @@ bool Stack :: push(int i){
     return true;
 }
 
-bool Stack :: isEmpty(){
+template<typename T>
+bool Stack<T> :: isEmpty(){
     if(top == -1)
         return true;
     
     return false;
 }
 
-int Stack :: pop(){
+template<typename T>
+T Stack<T> :: pop(){
     if(top == -1){
         cout<<"Stack Underflow"<<endl;
         return 0;
@@ -55,7 +56,8 @@ int Stack :: pop(){
     return data[top--];
 }
 
-int Stack :: peek(){
+template<typename T>
+T Stack<T> :: peek(){
     if(isEmpty()){
         cout<<"EMPTY " <<endl;
         return -1;
@@ -65,11 +67,14 @@ int Stack :: peek(){
 }
 
 int main(){
-    Stack s;
+    Stack<char> s;
 
-    s.push(1);
-    s.push(2);
-    s.push(3);
+    s.push('A');
+    s.push('B');
+    s.push('C');
+    s.push('Z');
+    s.push('#');
+    s.push('%');
 
     cout << "PEEK : " << s.peek() << endl;
 
@@ -80,6 +85,8 @@ int main(){
     cout << "PEEK : " << s.peek() << endl;
 
     s.pop();
+    cout << "PEEK : " << s.peek() << endl;
+
     cout << "PEEK : " << s.peek() << endl;
 
     return 0;
