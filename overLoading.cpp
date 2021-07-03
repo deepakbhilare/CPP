@@ -4,7 +4,7 @@ using namespace std;
 
 #define MAX 100
 
-template <typename T> 
+template <class T> 
 class Stack{
     private:
         int top;
@@ -26,7 +26,7 @@ class Stack{
         }
 };
 
-template<typename T>
+template<class T>
 bool Stack<T> :: push(T i){
     if(top >= MAX){
         cout<<"Stack Overflow"<<endl;
@@ -38,7 +38,7 @@ bool Stack<T> :: push(T i){
     return true;
 }
 
-template<typename T>
+template<class T>
 bool Stack<T> :: isEmpty(){
     if(top == -1)
         return true;
@@ -46,7 +46,7 @@ bool Stack<T> :: isEmpty(){
     return false;
 }
 
-template<typename T>
+template<class T>
 T Stack<T> :: pop(){
     if(top == -1){
         cout<<"Stack Underflow"<<endl;
@@ -56,7 +56,7 @@ T Stack<T> :: pop(){
     return data[top--];
 }
 
-template<typename T>
+template<class T>
 T Stack<T> :: peek(){
     if(isEmpty()){
         cout<<"EMPTY " <<endl;
