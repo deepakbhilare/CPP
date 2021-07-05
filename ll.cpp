@@ -24,8 +24,87 @@ class LinkedList{
         void reverseList();
         void display();
         void insert_at_given_position(int v, int p);
+        Node* delete_from_end(int p);
+        Node* deleteNode(int p);
 
 };
+
+Node* LinkedList :: delete_from_end(int p){
+    Node* one = head;
+    Node* two = head;
+
+    while(p--){
+        two = two->next;
+    }
+
+    if(!(two->next))
+        head = NULL;
+
+    while(two->next){
+        one = one->next;
+        two = two->next;
+    }
+
+    one->next = one->next->next;
+
+    return head;
+} 
+
+Node* LinkedList :: deleteNode(int p){
+    if(head && p == 0){
+        Node *newHead = head->next;
+
+        head->next = NULL;
+        delete head;
+
+        head = newHead;
+
+        return head;
+    }
+    else{
+        int i = 0;
+        Node *cur = head;
+
+        while(cur && i < p - 1){
+            cur = cur->next;
+            i++;
+        }
+
+        if(cur && cur->next){
+            Node * temp = cur->next;
+
+            cur->next = cur->next->next;
+
+            temp->next = NULL;
+            delete temp;     
+            return head;
+        }
+    }
+
+    cout << "Empty LL";
+
+    return NULL;
+}
+
+void LinkedList :: reverseList(){
+    if(head->next == NULL){
+        display();
+        return;
+    }
+
+    Node *curr = head;
+    Node *next = head->next;
+    Node *prev = NULL;
+    
+    while(curr){
+        next = curr->next;
+        curr->next = prev;
+        prev = curr;
+        curr = next;
+    }
+
+    head = prev;
+}
 
 void LinkedList :: insert_at_given_position(int v, int p){
     Node *temp = new Node();
@@ -80,6 +159,8 @@ void LinkedList :: display(){
             temp = temp->next;
         }
     }
+
+    cout << endl;
 }
 
 int main(){
@@ -90,7 +171,21 @@ int main(){
     list->addNode(4);
     list->addNode(10);
     list->insert_at_given_position(-1, 0);
+    list->insert_at_given_position(-2, 0);
+    list->addNode(100);
 
+    list->display();
+
+    list->deleteNode(0);
+    list->display();
+
+    list->deleteNode(3);
+    list->display();
+
+    list->reverseList();
+    list->display();
+
+    list->delete_from_end(2);
     list->display();
 
     return 0;
